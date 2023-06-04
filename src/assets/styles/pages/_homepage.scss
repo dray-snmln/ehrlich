@@ -104,7 +104,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      background: url('/img/vip/bg.png');
+      background: url('./img/vip/bg.png');
       background-repeat: no-repeat;
       background-size: contain;
       opacity: 0.5;
@@ -263,7 +263,7 @@
   }
 
   .new {
-    background-image: url('/img/new-arrivals/new.jpg');
+    background-image: url('./img/new-arrivals/new.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
