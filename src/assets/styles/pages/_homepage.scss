@@ -4,14 +4,17 @@
 
   .hero {
     width: 100%;
+
+    @include sp {
+      aspect-ratio: auto;
+    }
   }
 
   .hero__slide {
+    position: relative;
     width: 100%;
 
     img {
-      height: 100%;
-
       @include sp {
         object-position: 20% 50%;
       }

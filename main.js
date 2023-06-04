@@ -1,5 +1,5 @@
 import './src/assets/styles/main.scss'
-import './src/assets/js/burger'
+import setupBurger from './src/assets/js/burger'
 
 var benefits = new Flickity('.header__benefits', {
   wrapAround: true,
@@ -10,9 +10,8 @@ var benefits = new Flickity('.header__benefits', {
 })
 
 var hero = new Flickity('.hero', {
-  //autoPlay: 2500,
+  autoPlay: 2500,
   wrapAround: true,
-  percentPosition: false,
   cellAlign: 'left',
 })
 
