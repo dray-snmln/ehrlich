@@ -1,5 +1,7 @@
 # Ehrlich Test
 
+Live Preview: [https://dray-snmln.github.io/ehrlich/](https://dray-snmln.github.io/ehrlich/)
+
 This is a sample Vite project with Flickity integration.
 
 ## Getting Started
