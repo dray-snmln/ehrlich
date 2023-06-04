@@ -1,0 +1,79 @@
+@mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin max-width {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  @media screen and (max-width: 767px) {
+    max-width: 100%;
+    padding: 0 8%;
+  }
+}
+
+@mixin ie11 {
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    @content;
+  }
+}
+
+@mixin ios {
+  @supports (-webkit-touch-callout: none) {
+    @content;
+  }
+}
+
+@mixin mac {
+  @media not all and (min-resolution: 0.001dpcm) {
+    @supports (-webkit-appearance: none) {
+      @content;
+    }
+  }
+}
+
+@mixin mx1200 {
+  @media screen and (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin mx980 {
+  @media screen and (max-width: 980px) {
+    @content;
+  }
+}
+
+@mixin sp {
+  @media screen and (max-width: 767px) {
+    @content;
+  }
+}
+
+@function getsp($val) {
+  $result: calc(330 / 750) * $val;
+  @return $result;
+}
+
+@function getsp375($val) {
+  $result: calc(375 / 750) * $val;
+  @return $result;
+}
+
+@function getem($base-size, $illust-lheight) {
+  @return calc($illust-lheight / $base-size) * 1em;
+}
+
+@function getvw($val) {
+  $widthsize: 1440 * 0.01;
+  $result: calc($val / $widthsize) * 1vw;
+  @return $result;
+}
+
+@function getvw($val) {
+  $widthsize: 1920px * 0.01;
+  $result: calc($val / $widthsize) * 1vw;
+  @return $result;
+}

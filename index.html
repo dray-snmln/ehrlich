@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>THREADED</title>
+</head>
+
+<body>
+  <div class="homepage">
+    <header class="header">
+      <div class="header__fixed">
+        <nav class="header__burger"></nav>
+        <nav class="header__lnav">
+          <nav class="header__burger-close"></nav>
+          <ul class="header__lnav-list">
+            <li class="header__lnav-item active">
+              <a href="#" class="header__lnav-link">WOMEN</a>
+            </li>
+            <li class="header__lnav-item">
+              <a href="#" class="header__lnav-link">PLUS</a>
+            </li>
+            <li class="header__lnav-item">
+              <a href="#" class="header__lnav-link">MEN</a>
+            </li>
+            <li class="header__lnav-item">
+              <a href="#" class="header__lnav-link">ACCESSORIES</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__logo">
+          <a href="#">
+            <img src="/img/logo.svg" alt="THREADED Logo">
+          </a>
+        </div>
+        <nav class="header__rnav">
+          <ul class="header__rnav-list">
+            <li class="header__rnav-item">
+              <a href="#" class="header__rnav-link">
+                <img src="/img/icon/bx_bx-user.svg" alt="Profile Icon">
+              </a>
+            </li>
+            <li class="header__rnav-item">
+              <a href="#" class="header__rnav-link">
+                <img src="/img/icon/bx_bx-shopping-bag.svg" alt="Search Icon">
+              </a>
+            </li>
+            <li class="header__rnav-item header__rnav-item--heart">
+              <a href="#" class="header__rnav-link">
+                <img src="/img/icon/bx_bx-heart.svg" alt="Heart Icon">
+              </a>
+            </li>
+            <li class="header__rnav-item header__rnav-item--support">
+              <a href="#" class="header__rnav-link">
+                <img src="/img/icon/bx_bx-support.svg" alt="Support Icon">
+              </a>
+            </li>
+            <li class="header__rnav-item header__rnav-item--search">
+              <a href="#" class="header__rnav-link">
+                <img src="/img/icon/bx_bx-search.svg" alt="Search Icon">
+              </a>
+            </li>
+          </ul>
+          <div class="header__rnav-currency-switch">
+            <div class="header__rnav-flag">
+              <img src="/img/us-flag.svg" alt="US Flag Icon">
+            </div>
+            <div class="header__rnav-currency">
+              <div class="header__rnav-currency-text">USD $</div>
+            </div>
+            <div class="header__rnav-arrow">
+              <img src="/img/icon/ant-design_down-outlined.svg" alt="">
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="header__benefits">
+        <div class="header__benefits-item">
+          <img src="/img/icon/bx_bx-crown.svg" alt="">
+          <span>Exclusive Deals for VIP 2 and up!</span>
+        </div>
+        <div class="header__benefits-item">
+          <img src="/img/icon/bx_bx-star.svg" alt="">
+          <span>Weekly New Arrivals</span>
+        </div>
+        <div class="header__benefits-item">
+          <img src="/img/icon/mdi_truck-delivery-outline.svg" alt="">
+          <span>Free Shipping On Orders Over $100</span>
+        </div>
+        <div class="header__benefits-item">
+          <img src="/img/icon/bx_bx-map-pin.svg" alt="">
+          <span>Track Your Order</span>
+        </div>
+        <div class="header__benefits-item">
+          <img src="/img/icon/bx_bx-purchase-tag.svg" alt="">
+          <span>10% Off On Your First Order!</span>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="hero__slide">
+        <img src="/img/hero/hero-1.jpg" alt="">
+        <div class="hero__slide-cta hero__slide-cta--blackfriday">
+          <img src="/img/hero/hero-1-text.png" alt="">
+          <a class="button button--hero button--shadow" href="#">
+            <span>SHOP NOW</span>
+          </a>
+        </div>
+      </div>
+      <div class="hero__slide">
+        <img src="/img/hero/hero-1.jpg" alt="">
+        <div class="hero__slide-cta hero__slide-cta--blackfriday">
+          <img src="/img/hero/hero-1-text.png" alt="">
+          <a class="button button--hero button--shadow" href="#">
+            <span>SHOP NOW</span>
+          </a>
+        </div>
+      </div>
+      <div class="hero__slide">
+        <img src="/img/hero/hero-1.jpg" alt="">
+        <div class="hero__slide-cta hero__slide-cta--blackfriday">
+          <img src="/img/hero/hero-1-text.png" alt="">
+          <a class="button button--hero button--shadow" href="#">
+            <span>SHOP NOW</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="deal">
+      <div class="deal__wrapper">
+        <ul class="deal__list">
+          <li class="deal__item">
+            <div class="deal__off">
+              <span class="deal__currency">$</span>
+              <span class="deal__number">5</span>
+            </div>
+            <div class="deal__text">
+              ON ORDERS ABOVE $50
+            </div>
+          </li>
+          <li class="deal__item">
+            <div class="deal__off">
+              <span class="deal__currency">$</span>
+              <span class="deal__number">15</span>
+            </div>
+            <div class="deal__text">
+              ON ORDERS ABOVE $75
+            </div>
+          </li>
+          <li class="deal__item">
+            <div class="deal__off">
+              <span class="deal__currency">$</span>
+              <span class="deal__number">20</span>
+            </div>
+            <div class="deal__text">
+              ON ORDERS ABOVE $150
+            </div>
+          </li>
+          <li class="deal__item">
+            <div class="deal__off">
+              <span class="deal__currency">$</span>
+              <span class="deal__number">30</span>
+            </div>
+            <div class="deal__text">
+              ON ORDERS ABOVE $200
+            </div>
+          </li>
+        </ul>
+        <a href="#" class="button button--invert button--deal">
+          <span>
+            CHECK OUT ALL SITE-WIDE DEALS
+          </span>
+        </a>
+      </div>
+    </section>
+    <section class="vip">
+      <div class="vip__wrapper">
+        <div class="vip__title">BLACK FRIDAY EXCLUSIVE</div>
+        <div class="vip__description">FREE SHIPPING ON ALL ORDERS FOR VIP 2 AND UP!</div>
+        <a href="#" class="button button--vip"><span>SHOP NOW</span></a>
+      </div>
+    </section>
+    <section class="trending">
+      <div class="trending__wrapper">
+        <h2 class="trending__heading">Now Trending</h2>
+        <h3 class="trending__subheading">See what everyone's wearing right now</h3>
+        <ul class="trending__list">
+          <li class="trending__item">
+            <div class="trending__image-wrapper">
+              <img src="/img/trending/t1.jpg" alt="Trending 1">
+            </div>
+            <h3 class="trending__title">WINTER FASHION</h3>
+          </li>
+          <li class="trending__item">
+            <div class="trending__image-wrapper">
+              <img src="/img/trending/t2.jpg" alt="Trending 2">
+            </div>
+            <h3 class="trending__title">BOOTS</h3>
+          </li>
+          <li class="trending__item">
+            <div class="trending__image-wrapper">
+              <img src="/img/trending/t3.jpg" alt="Trending 3">
+            </div>
+            <h3 class="trending__title">NIGHT OUT</h3>
+          </li>
+          <li class="trending__item">
+            <div class="trending__image-wrapper">
+              <img src="/img/trending/t4.jpg" alt="Trending 4">
+            </div>
+            <h3 class="trending__title">HOLIDAYS</h3>
+          </li>
+          <li class="trending__item">
+            <div class="trending__image-wrapper">
+              <img src="/img/trending/t5.jpg" alt="Trending 5">
+            </div>
+            <h3 class="trending__title">OUTERWEAR</h3>
+          </li>
+          <li class="trending__item">
+            <div class="trending__image-wrapper">
+              <img src="/img/trending/t6.jpg" alt="Trending 6">
+            </div>
+            <h3 class="trending__title">WHITE DRESSES</h3>
+          </li>
+          <li class="trending__item">
+            <div class="trending__image-wrapper">
+              <img src="/img/trending/t7.jpg" alt="Trending 7">
+            </div>
+            <h3 class="trending__title">SWEATERS</h3>
+          </li>
+          <li class="trending__item">
+            <div class="trending__image-wrapper">
+              <img src="/img/trending/t8.jpg" alt="Trending 8">
+            </div>
+            <h3 class="trending__title">PARTY</h3>
+          </li>
+        </ul>
+        <ul class="trending__tags">
+          <li class="trending__tag">#Thanksgiving</li>
+          <li class="trending__tag">#NewYears</li>
+          <li class="trending__tag">#Knitted</li>
+          <li class="trending__tag">#Pajamas</li>
+          <li class="trending__tag">#WFH</li>
+          <li class="trending__tag">#FallFashion</li>
+        </ul>
+      </div>
+    </section>
+    <section class="new">
+      <div class="new__wrapper">
+        <div class="new__right">
+          <h2 class="new__heading">NEW <br class="pc">ARRIVALS</h2>
+          <h3 class="new__subheading">Get ready for the holidays with us!</h3>
+          <a href="#" class="button button--new"><span>SHOP NOW</span></a>
+        </div>
+      </div>
+    </section>
+    <section class="recent">
+      <div class="recent__wrapper">
+        <h2 class="recent__heading">Recently Bought</h2>
+        <ul class="recent__list">
+          <li class="recent__item">
+            <div class="recent__image-wrapper">
+              <img src="/img/recent/r1.jpg" alt="Recent 1">
+            </div>
+            <div class="recent__title">Festive Looks Rust Red Ribbed Velvet Long Sleeve Bodysuit</div>
+            <div class="recent__price">
+              <div class="recent__price-current">$38</div>
+            </div>
+          </li>
+          <li class="recent__item">
+            <div class="recent__image-wrapper">
+              <img src="/img/recent/r2.jpg" alt="Recent 2">
+            </div>
+            <div class="recent__title">Chevron Flap Crossbody Bag</div>
+            <div class="recent__price">
+              <div class="recent__price-sale">$5.77</div>
+              <div class="recent__price-current">$7.34</div>
+            </div>
+          </li>
+          <li class="recent__item">
+            <div class="recent__image-wrapper">
+              <img src="/img/recent/r3.jpg" alt="Recent 3">
+            </div>
+            <div class="recent__title">Manilla Tan Multi Plaid Oversized Fringe Scarf</div>
+            <div class="recent__price">
+              <div class="recent__price-sale">$29</div>
+              <div class="recent__price-current">$39</div>
+            </div>
+          </li>
+          <li class="recent__item">
+            <div class="recent__image-wrapper">
+              <img src="/img/recent/r4.jpg" alt="Recent 4">
+            </div>
+            <div class="recent__title">Diamante Puff Sleeve Dress - Black</div>
+            <div class="recent__price">
+              <div class="recent__price-current">$45.99</div>
+            </div>
+          </li>
+          <li class="recent__item">
+            <div class="recent__image-wrapper">
+              <img src="/img/recent/r5.jpg" alt="Recent 5">
+            </div>
+            <div class="recent__title">Banneth Open Front Formal Dress in Black</div>
+            <div class="recent__price">
+              <div class="recent__price-sale">$69</div>
+              <div class="recent__price-current">$99.95</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="inspo">
+      <div class="inspo__wrapper">
+        <h2 class="inspo__heading">Your Next Inspo</h2>
+        <h3 class="inspo__subheading">See what everyone's wearing right now</h3>
+        <ul class="inspo__list">
+          <li class="inspo__item">
+            <div class="inspo__image-wrapper">
+              <img src="/img/inspo/i1.jpg" alt="Inspo 1">
+            </div>
+          </li>
+          <li class="inspo__item">
+            <div class="inspo__image-wrapper">
+              <img src="/img/inspo/i2.jpg" alt="Inspo 2">
+            </div>
+          </li>
+          <li class="inspo__item">
+            <div class="inspo__image-wrapper">
+              <img src="/img/inspo/i3.jpg" alt="Inspo 3">
+            </div>
+          </li>
+          <li class="inspo__item">
+            <div class="inspo__image-wrapper">
+              <img src="/img/inspo/i4.jpg" alt="Inspo 4">
+            </div>
+          </li>
+          <li class="inspo__item">
+            <div class="inspo__image-wrapper">
+              <img src="/img/inspo/i5.jpg" alt="Inspo 5">
+            </div>
+          </li>
+        </ul>
+        <a href="#" class="button button--invert button--inspo">
+          <span>VIEW ALL POSTS</span>
+        </a>
+      </div>
+    </section>
+    <section class="newsletter">
+      <div class="newsletter__wrapper">
+        <div class="newsletter__text">SIGN UP FOR EXCLUSIVE DEALS AND UPDATES</div>
+        <div class="newsletter__input-wrapper">
+
+          <input type="email" name="newsletter" id="newsletter" class="newsletter__input"
+            placeholder="Your Email Address">
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__logo footer__logo--top">
+        <a href="#">
+          <img src="/img/logo.svg" alt="THREADED Logo">
+        </a>
+      </div>
+      <div class="footer__row footer__row--mobile">
+        <div class="footer__column footer__column--1">
+          <div class="footer__row footer__row--main">
+            <div class="footer__list-column">
+              <div class="footer__list-title">COMPANY INFO</div>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#">About THREADED</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#">Affiliate</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#">Blog</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#">Careers</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__list-column">
+              <div class="footer__list-title">HELP & SUPPORT</div>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#">FAQ</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#">Shipping</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#">Returns</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#">How To Order</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#">How To Track</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__list-column">
+              <div class="footer__list-title">CUSTOMER CARE</div>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#">Contact Us</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#">Payment Methods</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer__column footer__column--2">
+          <div class="footer__social-wrapper">
+            <div class="footer__list-title">FOLLOW US</div>
+            <ul class="footer__list footer__list--socials">
+              <li class="footer__item">
+                <a href="#"><img src="/img/icon/bx_bxl-facebook.svg" alt="" srcset=""></a>
+              </li>
+              <li class="footer__item">
+                <a href="#"><img src="/img/icon/bx_bxl-instagram.svg" alt="" srcset=""></a>
+              </li>
+              <li class="footer__item">
+                <a href="#"><img src="/img/icon/bx_bxl-twitter.svg" alt="" srcset=""></a>
+              </li>
+              <li class="footer__item">
+                <a href="#"><img src="/img/icon/bx_bxl-youtube.svg" alt="" srcset=""></a>
+              </li>
+              <li class="footer__item">
+                <a href="#"><img src="/img/icon/bx_bxl-pinterest-alt.svg" alt="" srcset=""></a>
+              </li>
+              <li class="footer__item">
+                <a href="#"><img src="/img/icon/bx_bxl-tiktok.svg" alt="" srcset=""></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__payment-wrapper">
+            <div class="footer__list-title">WE ACCEPT</div>
+            <div class="footer__payment">
+              <img src="/img/payment.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__row footer__row--copyright">
+        <div class="footer__copyright">©2021 THREADED All Rights Reserved.</div>
+        <div class="footer__logo footer__logo--copyright">
+          <a href="#">
+            <img src="/img/logo.svg" alt="THREADED Logo">
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script type="module" src="/main.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+.button {
+  color: $black;
+  background-color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: $semibold;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1;
+  padding: 10px 20px;
+
+  span {
+    pointer-events: none;
+    transition: 0.123s ease-in-out;
+  }
+
+  &:hover {
+    span {
+      opacity: 0.7;
+    }
+  }
+
+  &--shadow {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  &--invert {
+    color: $white;
+    background-color: $black;
+  }
+
+  &--hero {
+    font-size: getvw(36px);
+    font-weight: $semibold;
+    justify-self: center;
+    padding: 15px 30px;
+    margin: 25px auto 0;
+
+    @include sp {
+      font-size: 24px;
+    }
+  }
+
+  &--deal {
+    flex-shrink: 0;
+    align-self: center;
+  }
+
+  &--vip {
+    width: 150px;
+    flex-shrink: 0;
+    align-self: center;
+    margin-left: auto;
+
+    @include mx980 {
+      margin: 020px auto 0;
+    }
+  }
+
+  &--new {
+    margin-top: 43px;
+    align-self: flex-start;
+
+    @include mx980 {
+      margin: 43px auto 0;
+    }
+  }
+
+  &--inspo {
+    align-self: center;
+    margin-top: 10px;
+  }
+}

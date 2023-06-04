@@ -1,0 +1,9 @@
+html {
+  font-family: $ff-montserrat;
+  color: $text;
+  scroll-behavior: smooth;
+
+  @include sp {
+    min-width: 100%;
+  }
+}

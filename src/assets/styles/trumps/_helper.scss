@@ -1,0 +1,151 @@
+.white {
+  color: $white;
+}
+
+.white-bg {
+  background: $white;
+}
+
+.black {
+  color: $black;
+}
+
+.black-bg {
+  background: $black;
+}
+
+.primary {
+  color: $primary;
+}
+
+.primary-bg {
+  background: $primary;
+}
+
+.secondary {
+  color: $secondary;
+}
+
+.secondary-bg {
+  background: $secondary;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.bold {
+  font-weight: $bold;
+}
+
+.pc {
+  display: flex;
+  @include sp {
+    display: none;
+  }
+}
+
+.sp {
+  display: none;
+  @include sp {
+    display: flex;
+  }
+}
+
+.pd-left-10 {
+  padding-left: 10px;
+  @include sp {
+    padding-left: getsp375(10px);
+  }
+}
+
+.pd-left-20 {
+  padding-left: 20px;
+  @include sp {
+    padding-left: getsp375(20px);
+  }
+}
+
+.pd-left-30 {
+  padding-left: 30px;
+  @include sp {
+    padding-left: getsp375(30px);
+  }
+}
+
+.pd-left-40 {
+  padding-left: 40px;
+  @include sp {
+    padding-left: getsp375(40px);
+  }
+}
+
+.pd-left-50 {
+  padding-left: 50px;
+  @include sp {
+    padding-left: getsp375(50px);
+  }
+}
+
+.pd-left-60 {
+  padding-left: 60px;
+  @include sp {
+    padding-left: getsp375(60px);
+  }
+}
+
+.pd-left-70 {
+  padding-left: 70px;
+  @include sp {
+    padding-left: getsp375(70px);
+  }
+}
+
+.pd-left-80 {
+  padding-left: 80px;
+  @include sp {
+    padding-left: getsp375(80px);
+  }
+}
+
+.pd-left-85 {
+  padding-left: 85px;
+  @include sp {
+    padding-left: getsp375(104px);
+  }
+}
+
+.pd-left-90 {
+  padding-left: 90px;
+  @include sp {
+    padding-left: getsp375(90px);
+  }
+}
+
+.pd-left-100 {
+  padding-left: 100px;
+  @include sp {
+    padding-left: getsp375(100px);
+  }
+}
+
+.w70 {
+  width: 70px;
+  aspect-ratio: 1;
+  @include sp {
+    width: getsp375(70px);
+  }
+}
+
+.w80 {
+  width: 80px;
+  aspect-ratio: 1;
+  @include sp {
+    width: getsp375(80px);
+  }
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,25 @@
+.homepage {
+  .hero {
+    //dots
+    .flickity-page-dots {
+      bottom: 36px;
+    }
+
+    .flickity-page-dots .dot {
+      background-color: $white;
+    }
+
+    .flickity-page-dots .dot.dot-is-selected {
+      opacity: 0.5;
+    }
+
+    //arrows
+    .flickity-button {
+      background-color: transparent;
+    }
+
+    .flickity-button-icon {
+      fill: white;
+    }
+  }
+}
