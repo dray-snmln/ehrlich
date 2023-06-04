@@ -16,6 +16,7 @@
 
     img {
       @include sp {
+        height: 100%;
         object-position: 20% 50%;
       }
     }
