@@ -10,6 +10,7 @@ var benefits = new Flickity('.header__benefits', {
 })
 
 var hero = new Flickity('.hero', {
+  imagesLoaded: true,
   autoPlay: 2500,
   wrapAround: true,
   cellAlign: 'left',
